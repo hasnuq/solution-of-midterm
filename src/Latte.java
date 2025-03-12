@@ -1,7 +1,7 @@
 public class Latte implements Coffee{
     @Override
-    public int getCost() {
-        return 2;
+    public double getCost() {
+        return 2.0;
     }
 
     @Override

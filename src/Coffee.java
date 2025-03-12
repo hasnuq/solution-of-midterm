@@ -1,4 +1,4 @@
 public interface Coffee {
-     int getCost();
+     double getCost();
      String getDescription();
 }

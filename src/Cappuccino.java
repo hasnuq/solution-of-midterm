@@ -1,12 +1,12 @@
 public class Cappuccino implements Coffee{
 
     @Override
-    public int getCost() {
-        return 4;
+    public double getCost() {
+        return 4.0;
     }
 
     @Override
     public String getDescription() {
-        return "Capuccino";
+        return "Cappuccino";
     }
 }
